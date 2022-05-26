@@ -9,16 +9,17 @@
 </head>
 
 <body>
-  <div class="header"><img class="header__image" src="./eisenhower-matrix.jpg" alt="eisenhower matrix"> <!-- semantic -->
+  <header class="header">
+    <img class="header__image" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main"> <!-- semantic -->
-    <p class="add-item"> <!-- semantic -->
+  </header>
+  <main class="main">
+    <div class="add-item">
       <label class="add-item__label" for="new-task">Add Item</label>
       <div class="add-item__wrapper">
         <input id="new-task" class="task add-item__input" type="text"><button>Add</button>
       </div>
-    </p>
+    </div>
     <h3>Todo</h3>
     <ul id="incomplete-tasks" class="tasks-list">
       <li class="tasks-list__item">
@@ -37,7 +38,7 @@
         <input class="tasks-list__input task" type="text" class="task"><button class="edit">Edit</button><button class="delete"><img src="./remove.svg" alt="remove button"></button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
